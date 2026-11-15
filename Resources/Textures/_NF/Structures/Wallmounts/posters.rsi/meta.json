@@ -63,6 +63,33 @@
             "name": "nf_poster16_legit"
         },
         {
+            "name": "nf_poster17_legit"
+        },
+        {
+            "name": "nf_poster18_legit"
+        },
+        {
+            "name": "nf_poster19_legit"
+        },
+        {
+            "name": "nf_poster20_legit"
+        },
+        {
+            "name": "nf_poster21_legit"
+        },
+        {
+            "name": "nf_poster22_legit"
+        },
+        {
+            "name": "nf_poster23_legit"
+        },
+        {
+            "name": "nf_poster24_legit"
+        },
+        {
+            "name": "nf_poster25_legit"
+        },
+        {
             "name": "nf_poster1_contraband"
         },
         {
@@ -223,6 +250,39 @@
         },
         {
             "name": "nf_poster42_contraband"
+        },
+        {
+            "name": "nf_poster43_contraband"
+        },
+        {
+            "name": "nf_poster44_contraband"
+        },
+        {
+            "name": "nf_poster45_contraband"
+        },
+        {
+            "name": "nf_poster46_contraband"
+        },
+        {
+            "name": "nf_poster47_contraband"
+        },
+        {
+            "name": "nf_poster48_contraband"
+        },
+        {
+            "name": "nf_poster49_contraband"
+        },
+        {
+            "name": "nf_poster50_contraband"
+        },
+        {
+            "name": "nf_poster51_contraband"
+        },
+        {
+            "name": "nf_poster52_contraband"
+        },
+        {
+            "name": "nf_poster53_contraband"
         }
     ]
 }

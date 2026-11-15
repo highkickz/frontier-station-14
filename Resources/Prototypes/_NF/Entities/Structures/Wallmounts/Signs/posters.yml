@@ -167,6 +167,104 @@
     sprite: _NF/Structures/Wallmounts/posters.rsi
     state: nf_poster16_legit
 
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitVroidWantedMerc
+  name: "Wanted! Mercenary Captain"
+  description: |-
+    "Mercenary Captain - Wanted for Criminal Association and multiple Bluespace Violations. A small, barely legible line of text at the bottom outlines multiple clauses that may render you ineligible for receiving payment for proof-of-kill submissions to NT."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster17_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitVroidWantedExplorer
+  name: "Wanted! Explorer Captain"
+  description: |-
+    "Explorer Captain - Wanted for Illegal Resources Extraction and Environmental Damage. A small, barely legible line of text at the bottom outlines multiple clauses that may render you ineligible for receiving payment for proof-of-kill submissions to NT."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster18_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitVroidWantedQueen
+  name: "Wanted! Xeno Queen"
+  description: |-
+    "Xeno Queen - Wanted for Bioterrorism and Creation of Multiple Xeno Hives . A small, barely legible line of text at the bottom outlines multiple clauses that may render you ineligible for receiving payment for proof-of-kill submissions to NT."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster19_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitDrazilla
+  name: "Drazilla"
+  description: |-
+      The poster depicts a dragon as large as a space station, preying on unsuspected spacemen. Hopefully it isn't real.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster20_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitOhCrab
+  name: "Oh Crab!"
+  description: |-
+      The poster depicts the bane of many greenhorn miners - an ore crab. NT Mining Specialist encourages young miners to bring some basic gauze and brute pack before embarking on any astroid.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster21_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitBuildaBuddy
+  name: "Build a Buddy"
+  description: |-
+      The poster promotes a Build a Buddy pack. Fun for the whole family!
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster22_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitSaveUp
+  name: "Save up!"
+  description: |-
+      The poster encourages you to spend your money wisely, visit Trade Mall atms to deposit regualrly and build up good trade network with your fellow workers.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster23_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitPowerTools
+  name: "Power! Tools!"
+  description: |-
+      The poster depicts a brand new shinny power drill with the tagline "Feel the raw power of heavy industry in your hands! visit your science department for more infomation."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster24_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterLegitPickup
+  name: "Pick up"
+  description: |-
+      The poster depicts a red phone in erie lighting. Looking at it make you feel uneasy.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster25_legit
 #endregion
 
 #region Contraband posters
@@ -606,4 +704,126 @@
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
     state: nf_poster42_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandVroidWantedMercPuncture
+  name: "Shot-up Wanted Poster"
+  description: |-
+    The poster is riddled with bullet holes. You can make out the Mercenary Captain's potrait judging you.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster43_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandVroidWantedExplorerBurn
+  name: "Toasty Wanted Poster"
+  description: |-
+    The poster bottom is burned by intense heat. You can make out the Explorer Captain's potrait staring at you.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster44_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandVroidWantedQueenSlash
+  name: "Torn Wanted Poster"
+  description: |-
+    The poster is torn to shred. You can make out the Xeno Queen's potrait stalking you.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster45_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandBringtheHeat
+  name: "Bring the Heat"
+  description: |-
+    The poster depicts the lastest technology in the Syndicate culinary scene, a bloodred microwave that promise to cook your food 20% faster.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster46_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandJawofLife
+  name: "Jaw of Life"
+  description: |-
+    The poster depicts the fictional Jaw of Life, a hydraulic tool used by Syndicate agents in the movies to infiltrate secure locations.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster47_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandKillyourThrist
+  name: "Kill your Thrist"
+  description: |-
+    The poster depicts a refreshing can of Robust Nukie.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster48_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandSyndicateHydra
+  name: "Syndicate Hydra"
+  description: |-
+    The poster depicts the fearsome symbol of the Syndicate - a three-headed Hydra. Wait, you thought it was a deceitful three-headed snake?
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster49_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandSyndicateSnake
+  name: "Syndicate Snake"
+  description: |-
+    The poster depicts the deceitful symbol of the Syndicate - a three-headed Snake. Wait, you thought it was a fearsome three-headed Hydra?
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster50_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandTheCatthathuntDragons
+  name: "The Cat that hunt Dragons"
+  description: |-
+    This poster boast of the Syndicate cat whisperer division ability, capable of training cats that could bring down even the mightiest dragons with explosive forces.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster51_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandSyndicateResearchFacilities
+  name: "Syndicate Research Facilities"
+  description: |-
+    This poster depicts the many heavily armed Syndicate research facilities located... somewhere groundside.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster52_contraband
+
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandBushiTheSamuraiSpirit
+  name: "Bushi - The Samurai Spirit"
+  description: |-
+    This poster depicts a samurai warrior in armor. Looking at it fills you with the warrior spirit to be free of the coporate chains.
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster53_contraband
 #endregion
