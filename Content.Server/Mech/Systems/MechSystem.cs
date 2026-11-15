@@ -35,17 +35,17 @@ namespace Content.Server.Mech.Systems;
 /// <inheritdoc/>
 public sealed partial class MechSystem : SharedMechSystem
 {
-    [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
-    [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
-    [Dependency] private readonly BatterySystem _battery = default!;
-    [Dependency] private readonly ContainerSystem _container = default!;
-    [Dependency] private readonly DamageableSystem _damageable = default!;
-    [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly UserInterfaceSystem _ui = default!;
-    [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
-    [Dependency] private readonly SharedToolSystem _toolSystem = default!;
-    [Dependency] private readonly NpcFactionSystem _npcFaction = default!; // Frontier
+    [Dependency] private ActionBlockerSystem _actionBlocker = default!;
+    [Dependency] private AtmosphereSystem _atmosphere = default!;
+    [Dependency] private BatterySystem _battery = default!;
+    [Dependency] private ContainerSystem _container = default!;
+    [Dependency] private DamageableSystem _damageable = default!;
+    [Dependency] private SharedDoAfterSystem _doAfter = default!;
+    [Dependency] private SharedPopupSystem _popup = default!;
+    [Dependency] private UserInterfaceSystem _ui = default!;
+    [Dependency] private EntityWhitelistSystem _whitelistSystem = default!;
+    [Dependency] private SharedToolSystem _toolSystem = default!;
+    [Dependency] private NpcFactionSystem _npcFaction = default!; // Frontier
 
     private static readonly ProtoId<ToolQualityPrototype> PryingQuality = "Prying";
 
@@ -342,7 +342,7 @@ public sealed partial class MechSystem : SharedMechSystem
     private void ReceiveEquipmentUiMesssages<T>(EntityUid uid, MechComponent component, T args) where T : MechEquipmentUiMessage
     {
         // Frontier: snails and other simple mobs shouldn't manipulate mech equipment
-        if (!_actionBlocker.CanComplexInteract(args.Actor))
+        if (!_actionBlocker.CanComplexInteract(args.Actor) && !component.PilotSlot.Contains(args.Actor)) //mobs piloting a mech such as HAMTR or VIM should be able to manipulate the equipment if they are piloting it
             return;
         // End Frontier
 

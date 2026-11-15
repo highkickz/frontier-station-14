@@ -46,8 +46,10 @@
   - NFWeaponRevolverArgenti
   - NFWeaponPistolMk58
   - NFWeaponShotgunDoubleBarreled
+  - NFWeaponShotgunKammerer
   - NFWeaponRifleAssaultNovaliteC1
   - NFWeaponRifleAssaultGestio
+  - NFWeaponEnergyRifleAssaultLaserRepeater
   - BaseBallBatNF
   - CrossbowModern
   - WeaponPistolPollock
@@ -56,6 +58,7 @@
   id: NFMercenaryAmmoBoxesStatic
   recipes:
   - NFAmmunitionBoxPistol35
+  - NFAmmunitionBoxPistol45
   - NFAmmunitionBoxShellShotgunBuckshot
   - NFAmmunitionBoxRifle20
   - NFAmmunitionBoxRifle30
@@ -119,3 +122,8 @@
   - PlasteelEpeeNF
   - PlasteelAxeNF
   - PlasteelSpearNF
+
+- type: latheRecipePack
+  id: NFMercenaryTechfabEmag
+  recipes:
+  - NFWeaponRifleAssaultEstoc

@@ -26,6 +26,9 @@
 
 #/Content.*/Trigger/ @slarticodefast
 
+/Content.*/Stunnable/ @Princess-Cheeseballs
+/Content.*/Nutrition/ @Princess-Cheeseballs
+
 # SKREEEE
 #/Content.*.Database/ @PJB3005 @DrSmugleaf
 #/Content.Shared.Database/Log*.cs @PJB3005 @DrSmugleaf @crazybrain23
@@ -60,4 +63,5 @@
 #/.github/workflows/frontier-mapchecker.yml @whatston3
 
 # All Frontier Maps
-/Resources/Maps/_NF/ @arimah @dustylens @MagnusCrowe @the-hivequeen
+/Resources/Maps/_NF/ @arimah @dustylens @MagnusCrowe @the-hivequeen @Bartholemew-Dingleberry
+/Resources/Prototypes/_NF/Shipyard/ @arimah @dustylens @MagnusCrowe @the-hivequeen @Bartholemew-Dingleberry

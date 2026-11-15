@@ -96,6 +96,7 @@ guide-entry-shipyard-prospector = Prospector
 guide-entry-shipyard-pulsar = Pulsar
 guide-entry-shipyard-retort = Retort
 guide-entry-shipyard-skipper = Skipper
+guide-entry-shipyard-spectre = Spectre
 guide-entry-shipyard-stellaris = Stellaris
 guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-vagabond = Vagabond
@@ -111,6 +112,7 @@ guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
 guide-entry-shipyard-tyne = Tyne
 guide-entry-shipyard-vitalis = Vitalis
+guide-entry-shipyard-voltage = Voltage
 
 # Frontier Staff Shipyard entries
 guide-entry-shipyard-broom = Broom
@@ -122,6 +124,7 @@ guide-entry-shipyard-aegis = Aegis
 guide-entry-shipyard-anchor = Anchor
 guide-entry-shipyard-brigand = Brigand
 guide-entry-shipyard-charon = Charon
+guide-entry-shipyard-dendron = Dendron
 guide-entry-shipyard-dove = Dove
 guide-entry-shipyard-dragonfly = Dragonfly
 guide-entry-shipyard-pathfinder = Pathfinder
@@ -144,7 +147,6 @@ guide-entry-shipyard-paladin = Paladin
 guide-entry-shipyard-prowler = Prowler
 guide-entry-shipyard-rogue = Rogue
 guide-entry-shipyard-templar = Templar
-guide-entry-shipyard-wasp = Wasp
 
 # Rules entries
 guide-entry-frontier-rule-zero-tolerance = Zero Tolerance
@@ -153,7 +155,7 @@ guide-entry-frontier-rule-2 = 2. IC Info
 guide-entry-frontier-rule-3 = 3. Escalation
 guide-entry-frontier-rule-4 = 4. Chat
 guide-entry-frontier-rule-5 = 5. Roleplay
-guide-entry-frontier-rule-6 = 6. Safezone
+guide-entry-frontier-rule-6 = 6. Safe Zone
 guide-entry-frontier-rule-7 = 7. Antagonism
 guide-entry-frontier-rule-8 = 8. PVP
 guide-entry-frontier-rule-9 = 9. Piracy
