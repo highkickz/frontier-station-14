@@ -798,7 +798,7 @@
   id: NFPosterContrabandTheCatthathuntDragons
   name: "The Cat that hunt Dragons"
   description: |-
-    This poster boast of the Syndicate cat whisperer division ability, capable of training cats that could bring down even the mightiest dragons with explosive forces.
+    This poster boast of the Syndicate Kitten Division, capable of training cats that could bring down even the mightiest dragons with explosive forces.
   components:
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
@@ -821,7 +821,7 @@
   id: NFPosterContrabandBushiTheSamuraiSpirit
   name: "Bushi - The Samurai Spirit"
   description: |-
-    This poster depicts a samurai warrior in armor. Looking at it fills you with the warrior spirit to be free of the coporate chains.
+    This poster depicts a samurai warrior in armor. Looking at it fills you with the warrior spirit to break free of the coporate chains.
   components:
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
