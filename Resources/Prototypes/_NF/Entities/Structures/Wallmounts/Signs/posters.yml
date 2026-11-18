@@ -743,7 +743,7 @@
   id: NFPosterContrabandBringtheHeat
   name: "Bring the Heat"
   description: |-
-    The poster depicts the lastest technology in the Syndicate culinary scene, a bloodred microwave that promise to cook your food 20% faster.
+    The poster depicts the lastest technology in Donk.Co inovation, a bloodred microwave that promise to cook your food 20% faster.
   components:
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
